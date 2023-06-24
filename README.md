@@ -46,6 +46,7 @@ This video provides a comprehensive overview of our Parking Management System pr
 ### Video 2: Client Application Demonstration
 
 This video offers a detailed walkthrough of the client application developed for Android. You will understand how each feature of the app works, including login, registration, menu navigation, booking, and booking log.
+
 [![Project Overview](https://img.youtube.com/vi/9BrQgN0QSj0/0.jpg)](https://youtu.be/9BrQgN0QSj0 "Project Overview - Click to Watch!")
 
 
@@ -53,6 +54,7 @@ This video offers a detailed walkthrough of the client application developed for
 ### Video 3: Security Dashboard Demonstration
 
 In this video, we provide an overview of the security dashboard. We will guide you through logging in, adding channels, observing alert history, understanding the 2D homographic view, and looking into model detection. The video will also show the alert bar and how alerts are dispatched to the client with an image and an alert-type message.
+
 [![Client Application](https://img.youtube.com/vi/CGJyasUssIk/0.jpg)](https://youtu.be/CGJyasUssIk "Client Application - Click to Watch!")
 
 
