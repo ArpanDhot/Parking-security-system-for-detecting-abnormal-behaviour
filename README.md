@@ -2,11 +2,11 @@
 
 ## Project Description
 
-This project has accomplished the development and implementation of an intelligent parking management system that focuses on enhancing vehicle security and safety using deep learning algorithms. The project process entailed the collection and preprocessing of a diverse video dataset representing normal activities, abnormal behaviours, and theft characteristics from various parking lots. The data was appropriately annotated, creating an adequate training set for deep learning models.
+This project has accomplished developing and implementing an intelligent parking management system that focuses on enhancing vehicle security and safety using deep learning algorithms. The project process entailed collecting and preprocessing a diverse video dataset representing normal activities, abnormal behaviours, and theft characteristics from various parking lots. The data was appropriately annotated, creating an adequate training set for deep learning models.
 
-Our approach initially explored several machine learning methods such as a human skeleton-based approach, LSTM+RCNN, and OpenCV object detection. Nevertheless, the former two methods didn't prove effective at detecting anomalies within individual automobile frames. As a result, our focus shifted towards leveraging machine learning methods to detect anomalies precisely and efficiently, which involved the use of bounding boxes and OpenCV for object detection.
+Our approach initially explored several machine learning methods, such as a human skeleton-based approach, LSTM+RCNN, and OpenCV object detection. Nevertheless, the former two methods didn't prove effective at detecting anomalies within individual automobile frames. As a result, our focus shifted towards leveraging machine learning methods to detect anomalies precisely and efficiently, which involved using bounding boxes and OpenCV for object detection.
 
-The deep-learning model we chose utilises YOLOv5 for object detection. It's integrated into a comprehensive theft detection system that proved highly effective at detecting anomalies and notifying the driver through real-time alerts via a mobile application. While SQL was initially planned for the client dashboard database, we ultimately adopted Firebase, a cloud-based database, for more efficient and effective data storage.
+The deep-learning model we chose utilises YOLOv5 for object detection. It's integrated into a comprehensive theft detection system that proved highly effective at detecting anomalies and notifying the driver through real-time alerts via a mobile application. While SQL was initially planned for the client dashboard database, we adopted Firebase, a cloud-based database, for more efficient and effective data storage.
 
 Our parking management system boasts seamless integration with existing security systems, scalability, and real-world application success. It also addresses privacy and data security concerns. We developed a user-friendly dashboard for administrators and security personnel, which provides real-time parking lot information and features for managing alerts, reviewing video footage, and taking appropriate actions against potential theft incidents.
 
@@ -24,13 +24,13 @@ The Security Dashboard offers real-time monitoring and alerts of potential secur
 
 ### Object Detection Models
 
-The heart of our security monitoring capabilities lies within the object detection models. Our approach explored several different methods including single-model detection, LSTM+RCNN, and multi-model detection. 
+The heart of our security monitoring capabilities lies within the object detection models. Our approach explored several methods, including single-model detection, LSTM+RCNN, and multi-model detection. 
 
 The final solution adopted for the system was multi-model detection, utilising YOLOv5. This approach consists of three distinct models, each having a specific role in detecting different classes of objects:
 
 1. **Model 1:** Focuses on car-related events. It is designed to detect car doors opening and closing, number plates, and parking lots.
 2. **Model 2:** Responsible for detecting individuals, particularly proficient in identifying security vests.
-3. **Model 3:** Tasked with identifying tools, which could be indicative of potential theft attempts.
+3. **Model 3:** Tasked with identifying tools which could indicate potential theft attempts.
 
 ## Implementation and System Overview Videos
 
@@ -52,7 +52,7 @@ This video offers a detailed walkthrough of the client application developed for
 
 ### Video 3: Security Dashboard Demonstration
 
-In this video, we provide an overview of the security dashboard. We will guide you through logging in, adding channels, observing alert history, understanding the 2D homographic view, and looking into model detection. The video will also shed light on the alert bar and how alerts are dispatched to the client with an image and an alert type message.
+In this video, we provide an overview of the security dashboard. We will guide you through logging in, adding channels, observing alert history, understanding the 2D homographic view, and looking into model detection. The video will also show the alert bar and how alerts are dispatched to the client with an image and an alert-type message.
 [![Client Application](https://img.youtube.com/vi/CGJyasUssIk/0.jpg)](https://youtu.be/CGJyasUssIk "Client Application - Click to Watch!")
 
 
@@ -67,4 +67,4 @@ We sought feedback from industry experts to gain insights into the real-world us
 
 ## Conclusion
 
-The Parking Management System successfully achieved its primary objectives, providing an efficient and comprehensive parking management and security solution. The system effectively caters to the needs of users, administrators, and security personnel. Future enhancements and refinements can build upon this strong foundation
+The Parking Management System achieved its primary objectives by providing an efficient and comprehensive parking management and security solution. The system effectively caters to the needs of users, administrators, and security personnel.
